@@ -10,20 +10,20 @@
 		</head>
 		<body>
 			<header>
-				<div class="head"><img src="images/profile.png" width="55" height="55"><h3>Bienvenido/a ${id_user}</h3>
+				<div class="head"><img src="img_css/Persona.jpg" width="55" height="55"><h3>Bienvenido/a ${id_user}</h3>
 	            <a href="#">Editar perfil</a></div>
-	            <div class="head"><h1>Banana GEST</h1><img src="images/bananas_medio.png"/></div>
+	            <div class="head"><h1>Banana GEST</h1><img src="img_css/banana.png" width="65" height="55"/></div>
 	            <div class="head"><h4><a href="LogoutServlet">Logout</a></h4></div>    
 			</header>
 			<main>
 				<sidebar class="botones">
 						<a href="createproject">
-							<input class="crear" type="submit" name="boton" value="Crear proyecto" style="width:40%  ">
+							<input class="crear" type="submit" name="boton" value="Crear proyecto" style="width:300px; height:40px;">
 						</a>
 						<a href="#">
 						</a>
 						<a href="createtask">
-							<input class="crear" type="submit" name="boton" value="Crear tarea" style="width:40%">
+							<input class="crear" type="submit" name="boton" value="Crear tarea" style="width:300px; height:40px;">
 						</a>
 						<a href="createtask.jsp">		
 						</a>

@@ -2,7 +2,7 @@
     pageEncoding="ISO-8859-1"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE html>
-<jsp:useBean id="saveProject" class="com.generation.jwd.bean.Project" scope="request"></jsp:useBean>
+<%-- <jsp:useBean id="saveProject" class="com.generation.jwd.p1.beans.Project" scope="request"></jsp:useBean> --%>
     <html lang="en">
     <head>
         <meta charset="UTF-8">
@@ -11,9 +11,9 @@
     </head>
     <body>
         <header>
-            <div class="head"><img src="images/profile.png" widtd="55" height="55"><h3>Bienvenido/a ${id_user}</h3>
+            <div class="head"><img src="img_css/Persona.jpg" widtd="55" height="55"><h3>Bienvenido/a ${id_user}</h3>
             <a href="#">Editar perfil</a></div>
-            <div class="head"><h1>Banana GEST</h1><a href="homeuser.jsp"><img src="images/bananas_medio.png"/></a></div>
+            <div class="head"><h1>Banana GEST</h1><a href="homeuser.jsp"><img src="img_css/banana.png" width="65" height="55"/></a></div>
             <div class="head"><h4><a href="LogoutServlet">Logout</a></h4></div>
         </header>
             <h2>Registro de nuevo proyecto</h2>
@@ -61,7 +61,7 @@
                     </table>
                 </p>
                 <div id="boton">
-                    <button  style="widtd:200px; height:50px;">Crear proyecto</button>
+                    <button  style="width:150px; height:40px;">Crear proyecto</button>
                 </div>
             </form>
         </main>

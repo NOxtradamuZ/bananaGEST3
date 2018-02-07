@@ -1,50 +1,23 @@
 @charset "ISO-8859-1";
 
 html{
-	margin: 10px;
-	background: #F9E79F;
+	background-image: url(https://wallpaperlayer.com/img/2015/9/abstract-orange-wallpaper-1450-1583-hd-wallpapers.jpg); 
 	position: relative;
-}
-
-body{
-	background: #F9E79F;
+	opacity: 85%;
+	background-color: none;
 }
 
 header{
-	background: #F4D03F;
-	border-radius: 10px;
-}
-
-.error {
-	background-color: #DCDCDC;
-	color : red;
-	text-size : 1.5em;
-	margin-left : 20%;
-	margin-right : 20%;
-}
-
-.disconnect {
-	background-color: #DCDCDC;
-	color : green;
-	text-size : 1.5em;
-	margin-left : 20%;
-	margin-right : 20%;
+	margin-bottom: 5%;
+	border-bottom: solid;
 }
 
 .row{
 	text-align: center;
 }
 
-.register{
-	margin-top: 1%;
-}
-
 main{
 	margin-top: 8%;
-}
-
-#bananas{
-	width: 15%;
 }
 
 .alinear{
@@ -66,10 +39,16 @@ a{
 	color: #2593EE;
 }
 
+.buttom {
+	width: 25%;
+}
+
 footer{
 	background: #A04000;
-	color: white;
-	position: fixed;
-   	left: 0px;
-   	bottom: 0px;
+	color:white;
+	position:fixed;
+   	left:0px;
+  	bottom:0px;
+   	height:20px;
+   	width:100%;
 }
