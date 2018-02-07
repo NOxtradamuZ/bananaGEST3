@@ -8,47 +8,65 @@
   <name>bananaGEST3 Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <dependencies>
+    
+	<!-- JUnit -->  
     <dependency>
-  		<groupId>javax.servlet</groupId>
-  		<artifactId>javax.servlet-api</artifactId>
-  		<version>3.0.1</version>
-  		<scope>provided</scope>
-  	</dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.12</version>
+      <scope>test</scope>
+    </dependency>
+    
+  	<!-- Hibernate -->  
 	<dependency>
-	    <groupId>junit</groupId>
-	    <artifactId>junit</artifactId>
-	    <version>4.12</version>
-	    <scope>test</scope>
+	    <groupId>org.hibernate</groupId>
+	    <artifactId>hibernate-core</artifactId>
+	    <version>5.2.11.Final</version>
 	</dependency>
+	
+	<!-- MySQL -->	
 	<dependency>
-	    <groupId>javax.servlet</groupId>
-	    <artifactId>jstl</artifactId>
-	    <version>1.2</version>
+    	<groupId>mysql</groupId>
+    	<artifactId>mysql-connector-java</artifactId>
+	    <version>6.0.6</version>
+	</dependency>
+	
+	<!-- Spring -->
+	<dependency>
+		<groupId>org.springframework</groupId>
+		<artifactId>spring-context</artifactId>
+		<version>5.0.3.RELEASE</version>
+	</dependency>	
+	<dependency>
+		<groupId>org.springframework</groupId>
+		<artifactId>spring-tx</artifactId>
+		<version>5.0.3.RELEASE</version>
 	</dependency>
 		<dependency>
-	    <groupId>org.glassfish.web</groupId>
-	    <artifactId>jstl-impl</artifactId>
-	    <version>1.2</version>
-	    <exclusions>
-	        <exclusion>
-	            <artifactId>servlet-api</artifactId>
-	            <groupId>javax.servlet</groupId>
-	        </exclusion>
-	        <exclusion>
-	            <artifactId>jsp-api</artifactId>
-	            <groupId>javax.servlet.jsp</groupId>
-	        </exclusion>
-	        <exclusion>
-	            <artifactId>jstl-api</artifactId>
-	            <groupId>javax.servlet.jsp.jstl</groupId>
-	        </exclusion>
-	    </exclusions>
-	</dependency>	
-	<dependency> 
-	    <groupId>mysql</groupId>
-	    <artifactId>mysql-connector-java</artifactId>
-	    <version>5.1.38</version>
-	</dependency>	
+		<groupId>org.springframework</groupId>
+		<artifactId>spring-core</artifactId>
+		<version>5.0.3.RELEASE</version>
+	</dependency>
+		<dependency>
+		<groupId>org.springframework</groupId>
+		<artifactId>spring-orm</artifactId>
+		<version>5.0.3.RELEASE</version>
+	</dependency>
+	
+	<!-- Servlet -->	
+	<dependency>
+		<groupId>javax.servlet</groupId>
+		<artifactId>servlet-api</artifactId>
+		<version>2.5</version>
+		<scope>provided</scope>
+	</dependency>
+	<dependency>
+		<groupId>javax.servlet</groupId>
+		<artifactId>jsp-api</artifactId>
+		<version>2.0</version>
+		<scope>provided</scope>
+	</dependency>
+
   </dependencies>
   <build>
     <finalName>bananaGEST3</finalName>
