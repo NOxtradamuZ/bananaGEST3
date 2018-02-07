@@ -11,14 +11,16 @@
          com.mysql.jdbc.Driver
       </property>
       <property name="hibernate.connection.url">
-         jdbc:mysql://127.0.0.1:3306/generation_test
+         jdbc:mysql://127.0.0.1:3306/banana_gest_3
       </property>
       <property name="hibernate.connection.username">
          root
       </property>
       <property name="hibernate.connection.password">
-         root
+         Enrique123
       </property>
       <mapping class="com.generation.jwd.bean.User" />
+      <mapping class="com.generation.jwd.bean.Task" />
+      <mapping class="com.generation.jwd.bean.Project" />            
    </session-factory>
 </hibernate-configuration>
