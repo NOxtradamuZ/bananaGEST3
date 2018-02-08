@@ -7,6 +7,8 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>bananaGEST3 Maven Webapp</name>
   <url>http://maven.apache.org</url>
+  
+	<!-- jsp-api -->   
   <dependencies>
     <dependency>
   		<groupId>javax.servlet</groupId>
@@ -93,12 +95,6 @@
 		<groupId>javax.servlet</groupId>
 		<artifactId>servlet-api</artifactId>
 		<version>2.5</version>
-		<scope>provided</scope>
-	</dependency>
-	<dependency>
-		<groupId>javax.servlet</groupId>
-		<artifactId>jsp-api</artifactId>
-		<version>2.0</version>
 		<scope>provided</scope>
 	</dependency>		
   </dependencies>
