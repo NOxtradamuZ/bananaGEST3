@@ -11,9 +11,9 @@
     </head>
     <body>
         <header>
-            <div class="head"><img src="img_css/Persona.jpg" widtd="55" height="55"><h3>Bienvenido/a ${id_user}</h3>
+            <div class="head"><img src="img/Persona.jpg" widtd="55" height="55"><h3>Bienvenido/a ${id_user}</h3>
             <a href="#">Editar perfil</a></div>
-            <div class="head"><h1>Banana GEST</h1><a href="homeuser.jsp"><img src="img_css/banana.png" width="65" height="55"/></a></div>
+            <div class="head"><h1>Banana GEST</h1><a href="homeuser.jsp"><img src="img/banana.png" width="65" height="55"/></a></div>
             <div class="head"><h4><a href="LogoutServlet">Logout</a></h4></div>
         </header>
             <h2>Registro de nueva tarea</h2>

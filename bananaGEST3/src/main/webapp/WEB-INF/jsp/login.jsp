@@ -18,14 +18,14 @@
 		<main class="container-fluid">
 			<div class="row">
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-					<img id= "bananas" src="img_css/banana.png" width="100" height="90"/>
+					<img id= "bananas" src="img/banana.png" width="100" height="90"/>
 					<form action="login" method="post" id="formulario">
 						<div class="intro_user">
-							<img class="alinear" src="img_css/name.png"/>
+							<img class="alinear" src="img/name.png"/>
 							<input type="text" name="email" placeholder="Email" required="true" autofocus/>
 						</div>
 						<div class="intro_user">
-							<img class="alinear" src="img_css/padlock.png"/>
+							<img class="alinear" src="img/padlock.png"/>
 							<input type="password" name="password" placeholder="Password" maxlength="12" minlength="4" required="true"/>
 						</div>
 						<div class="intro_user">
@@ -37,13 +37,13 @@
 					</form>										
 					<div class="intro_user">
 						<a href="https://twitter.com/?lang=es">
-						<img src="img_css/twitter.png" width="35" height="35"/>
+						<img src="img/twitter.png" width="35" height="35"/>
 						</a>
 						<a href="https://es-es.facebook.com/">
-						<img src="img_css/facebook.png" width="35" height="35"/>
+						<img src="img/facebook.png" width="35" height="35"/>
 						</a>
 						<a href="https://es.linkedin.com/">
-						<img src="img_css/linkedin.png" width="35" height="35"/>	
+						<img src="img/linkedin.png" width="35" height="35"/>	
 						</a>
 					</div>
 				</div>
