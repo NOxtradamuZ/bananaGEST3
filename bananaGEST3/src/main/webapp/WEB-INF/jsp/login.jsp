@@ -19,7 +19,7 @@
 			<div class="row">
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 					<img id= "bananas" src="img/banana.png" width="100" height="90"/>
-					<form action="login" method="post" id="formulario">
+					<form action="login" method="POST" id="formulario">
 						<div class="intro_user">
 							<img class="alinear" src="img/name.png"/>
 							<input type="text" name="email" placeholder="Email" required="true" autofocus/>
