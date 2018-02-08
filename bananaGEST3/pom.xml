@@ -8,14 +8,12 @@
   <name>bananaGEST3 Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <dependencies>
-  
     <dependency>
   		<groupId>javax.servlet</groupId>
   		<artifactId>javax.servlet-api</artifactId>
   		<version>3.0.1</version>
   		<scope>provided</scope>
-  	</dependency>
-  		
+  	</dependency> 		
 	<dependency>
 	    <groupId>org.glassfish.web</groupId>
 	    <artifactId>jstl-impl</artifactId>
@@ -79,7 +77,17 @@
 		<artifactId>spring-orm</artifactId>
 		<version>5.0.3.RELEASE</version>
 	</dependency>
-	
+	<dependency>
+    	<groupId>org.springframework</groupId>
+    	<artifactId>spring-web</artifactId>
+    	<version>3.0.2.RELEASE</version>
+	</dependency>
+	<dependency>
+    	<groupId>org.springframework</groupId>
+    	<artifactId>spring-webmvc</artifactId>
+    	<version>2.5.2</version>
+	</dependency>
+
 	<!-- Servlet -->	
 	<dependency>
 		<groupId>javax.servlet</groupId>
@@ -87,16 +95,12 @@
 		<version>2.5</version>
 		<scope>provided</scope>
 	</dependency>
-
 	<dependency>
 		<groupId>javax.servlet</groupId>
 		<artifactId>jsp-api</artifactId>
 		<version>2.0</version>
 		<scope>provided</scope>
-	</dependency>
-	
-	
-		
+	</dependency>		
   </dependencies>
   <build>
     <finalName>bananaGEST3</finalName>
