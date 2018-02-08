@@ -16,23 +16,11 @@
 	            <div class="head"><h4><a href="LogoutServlet">Logout</a></h4></div>    
 			</header>
 			<main>
-				<sidebar class="botones">
-						<a href="createproject">
-							<input class="crear" type="submit" name="boton" value="Crear proyecto" style="width:300px; height:40px;">
-						</a>
-						<a href="#">
-						</a>
-						<a href="createtask">
-							<input class="crear" type="submit" name="boton" value="Crear tarea" style="width:300px; height:40px;">
-						</a>
-						<a href="createtask.jsp">		
-						</a>
-				</sidebar>
 				<section class="tareas">
 					<nav>
 						<h2>Tus tareas</h2>
 						
-						<table id="tabla" border="3" cellspacing="0" cellpadding="2" bordercolor="#666633"/>
+						<table id="tabla" border="3" cellspacing="0" cellpadding="2" bordercolor="#666633" style="text-align: center; width: 90%"/>
 							<tr>
 								<td>
 									<div>Tarea</div>
@@ -70,6 +58,18 @@
 						</table>
 					</nav>	
 				</section>
+				<sidebar class="botones">
+						<a href="createproject">
+							<input class="crear" type="submit" name="boton" value="Crear proyecto" style="width:300px; height:40px;">
+						</a>
+						<a href="createproject.jsp">
+						</a>
+						<a href="createtask">
+							<input class="crear" type="submit" name="boton" value="Crear tarea" style="width:300px; height:40px;">
+						</a>
+						<a href="createtask.jsp">		
+						</a>
+				</sidebar>
 			</main>
 			<br/>
 			<footer>
